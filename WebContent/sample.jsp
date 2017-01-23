@@ -18,7 +18,8 @@ String today = sdf.format(date);
 <html>
 <head>
 <meta charset="UTF-8">
-<title>スッキリ占い</title>
+<title>スッキリ占い
+</title>
 </head>
 <body>
 <p><%=today %>の運勢は<%= luck %>です</p>
