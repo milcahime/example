@@ -10,6 +10,8 @@ int index = (int)(Math.random()*3);
 String luck = luckArray[index];
 
 //実行日を取得
+
+
 Date date = new Date();
 SimpleDateFormat sdf =new SimpleDateFormat("yyyy/MM/dd");
 String today = sdf.format(date);
